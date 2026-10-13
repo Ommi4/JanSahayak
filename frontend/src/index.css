@@ -1,0 +1,116 @@
+:root {
+  --primary: #1a237e;
+  --primary-hover: #283593;
+  --primary-light: #e8eaf6;
+  --accent: #ff6f00;
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --text-muted: #9ca3af;
+  --bg-page: #f3f4f6;
+  --bg-card: #ffffff;
+  --border-color: #e5e7eb;
+  --success: #10b981;
+  --success-bg: #ecfdf5;
+  --error: #ef4444;
+  --error-bg: #fef2f2;
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  gap: 1rem;
+  color: var(--text-secondary);
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(26, 35, 126, 0.15);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.placeholder-page {
+  background: var(--bg-card);
+  padding: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.placeholder-page h2 {
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+  font-size: 1.6rem;
+}
+
+.placeholder-page p {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+}
+
+.placeholder-badge {
+  display: inline-block;
+  background: var(--primary-light);
+  color: var(--primary);
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.user-welcome-card {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 6px;
+  border: 1px dashed var(--border-color);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}

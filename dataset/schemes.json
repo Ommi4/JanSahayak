@@ -1,0 +1,376 @@
+[
+  {
+    "schemeName": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "category": "Agriculture",
+    "beneficiary": "Small and Marginal Farmers",
+    "state": "All",
+    "description": "A Central Sector scheme to provide income support to all landholding farmer families across the country to enable them to take care of expenses related to agriculture and domestic needs.",
+    "benefits": [
+      "Financial benefit of ₹6,000 per year transferred directly into bank accounts",
+      "Payable in three equal installments of ₹2,000 every four months",
+      "Direct Benefit Transfer (DBT) directly through Aadhaar-seeded accounts"
+    ],
+    "eligibilityText": "Small and marginal landholder farmer families owning cultivable land up to 2 hectares in their name. Institutional landholders and high-income taxpayer families are excluded.",
+    "rules": {
+      "farmer": true,
+      "age": {
+        "min": 18
+      }
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Landholding Ownership Papers (Khata / Khasra / RoR)",
+      "Active Bank Account Passbook with IFSC code",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "applicationProcess": [
+      "Visit official portal pmkisan.gov.in and click 'Farmers Corner'",
+      "Select 'New Farmer Registration' and enter Aadhaar number and state",
+      "Fill landholding details and upload relevant land records",
+      "Alternatively, visit nearest Common Service Centre (CSC) or State Nodal Officer"
+    ],
+    "officialWebsite": "https://pmkisan.gov.in/",
+    "source": "https://www.myscheme.gov.in/schemes/pm-kisan",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+    "department": "National Health Authority, Ministry of Health and Family Welfare",
+    "category": "Healthcare",
+    "beneficiary": "Vulnerable and Low-Income Families",
+    "state": "All",
+    "description": "World's largest government-funded healthcare assurance scheme offering cashless secondary and tertiary hospitalization care across empanelled public and private hospitals.",
+    "benefits": [
+      "Cashless health insurance coverage of up to ₹5,00,000 per family per year",
+      "Covers up to 3 days of pre-hospitalization and 15 days of post-hospitalization expenses",
+      "Covers approximately 1,949 medical and surgical procedures including medicines and diagnostics"
+    ],
+    "eligibilityText": "Deprived and vulnerable rural families and identified occupational categories of urban workers based on SECC 2011 criteria with annual income under ₹2,50,000.",
+    "rules": {
+      "annualIncome": {
+        "max": 250000
+      }
+    },
+    "documents": [
+      "Aadhaar Card or Government Photo ID",
+      "Ration Card or Family Identification Document",
+      "Income Certificate / SECC Enrolment Record",
+      "Registered Mobile Number"
+    ],
+    "applicationProcess": [
+      "Check eligibility on mera.pmjay.gov.in using mobile number or ration card",
+      "Visit any empanelled public or private hospital and meet the Ayushman Mitra",
+      "Verify Aadhaar identity through e-KYC",
+      "Obtain the Ayushman Golden Card for cashless admission"
+    ],
+    "officialWebsite": "https://nha.gov.in/PM-JAY",
+    "source": "https://www.myscheme.gov.in/schemes/pmjay",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+    "department": "Ministry of Rural Development",
+    "category": "Housing",
+    "beneficiary": "Rural Houseless and Kutcha House Dwellers",
+    "state": "All",
+    "description": "A flagship housing scheme aimed at providing a pucca house with basic amenities to all houseless households and those living in kutcha and dilapidated houses in rural areas.",
+    "benefits": [
+      "Financial assistance of ₹1,20,000 in plain areas and ₹1,30,000 in hilly/difficult/northeast states",
+      "90-95 days of unskilled labor wages under MGNREGA (~₹20,000 additional)",
+      "Assistance of ₹12,000 for construction of toilet under Swachh Bharat Mission (Gramin)"
+    ],
+    "eligibilityText": "Families without shelter or living in zero, one or two-room houses with kutcha wall and roof, with annual income not exceeding ₹2,00,000.",
+    "rules": {
+      "age": {
+        "min": 18
+      },
+      "annualIncome": {
+        "max": 200000
+      }
+    },
+    "documents": [
+      "Aadhaar Card",
+      "MGNREGA Job Card Number",
+      "Bank Account Passbook (Aadhaar linked)",
+      "Certificate of Houselessness / Kutcha house photograph",
+      "Income Certificate"
+    ],
+    "applicationProcess": [
+      "Eligible beneficiaries identified by Gram Sabha from SECC list",
+      "Panchayat Secretary or Village Development Officer enters applicant details on AwaasSoft",
+      "Geo-tagged inspection photos of existing house uploaded",
+      "Funds transferred directly in geo-tagged construction stages to bank account"
+    ],
+    "officialWebsite": "https://pmayg.nic.in/",
+    "source": "https://www.myscheme.gov.in/schemes/pmay-g",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "Pradhan Mantri Ujjwala Yojana (PMUY - Ujjwala 2.0)",
+    "department": "Ministry of Petroleum and Natural Gas",
+    "category": "Social Welfare",
+    "beneficiary": "Adult Women from Poor Households",
+    "state": "All",
+    "description": "Provides deposit-free LPG connections to adult women from poor households to safeguard women and children health by providing clean cooking fuel.",
+    "benefits": [
+      "Deposit-free LPG connection including security deposit of cylinder and pressure regulator",
+      "First LPG refill provided completely free of cost",
+      "Hotplate (stove) provided free of cost with connection"
+    ],
+    "eligibilityText": "Woman applicant aged 18 years or above belonging to poor household (BPL / SECC / SC / ST / PMAY-G beneficiary) with annual family income under ₹1,50,000 and having no existing LPG connection in household.",
+    "rules": {
+      "gender": ["female"],
+      "age": {
+        "min": 18
+      },
+      "annualIncome": {
+        "max": 150000
+      }
+    },
+    "documents": [
+      "Aadhaar Card of the applicant and adult family members",
+      "Ration Card or BPL Certificate showing family composition",
+      "Bank Account Passbook (IFSC and account number)",
+      "Self-declaration of residence proof (Ujjwala 2.0 migrant provision)"
+    ],
+    "applicationProcess": [
+      "Download or collect Ujjwala 2.0 application form from pmuy.gov.in or local LPG distributor",
+      "Submit completed form with Aadhaar and ration card at Indian Oil, Bharat Petroleum, or HP Gas agency",
+      "Verification conducted by distributor through OMC portal",
+      "LPG connection released upon verification"
+    ],
+    "officialWebsite": "https://www.pmuy.gov.in/",
+    "source": "https://www.myscheme.gov.in/schemes/pmuy",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "Atal Pension Yojana (APY)",
+    "department": "Pension Fund Regulatory and Development Authority (PFRDA), Ministry of Finance",
+    "category": "Financial Assistance",
+    "beneficiary": "Unorganized Sector Workers",
+    "state": "All",
+    "description": "A government-backed pension scheme targeted at citizens in the unorganized sector to provide financial security during old age.",
+    "benefits": [
+      "Guaranteed minimum pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000 or ₹5,000 per month starting at age 60",
+      "Spouse receives exact pension upon death of subscriber",
+      "Return of full accumulated pension wealth to nominee upon death of both subscriber and spouse"
+    ],
+    "eligibilityText": "All Indian citizens aged between 18 and 40 years holding a savings bank or post office account. Citizen must not be an income taxpayer.",
+    "rules": {
+      "age": {
+        "min": 18,
+        "max": 40
+      }
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Savings Bank Account or Post Office Account details",
+      "Active Mobile Number"
+    ],
+    "applicationProcess": [
+      "Approach the bank branch or post office where savings account is maintained",
+      "Fill the APY Registration Form specifying chosen monthly pension amount and auto-debit consent",
+      "Auto-debit begins monthly/quarterly/half-yearly based on entry age",
+      "Can also subscribe online via internet banking portals of major banks"
+    ],
+    "officialWebsite": "https://www.npscra.nsdl.co.in/scheme-details.php",
+    "source": "https://www.myscheme.gov.in/schemes/apy",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "Sukanya Samriddhi Yojana (SSY)",
+    "department": "Department of Posts, Ministry of Finance",
+    "category": "Women & Child Development",
+    "beneficiary": "Girl Child (Parents/Guardians)",
+    "state": "All",
+    "description": "A government small deposit savings scheme targeted at parents of girl children as part of Beti Bachao Beti Padhao initiative to fund education and marriage expenses.",
+    "benefits": [
+      "Highest government small savings interest rate (~8.2% per annum, compounded annually)",
+      "Triple tax exemption (EEE) under Section 80C of Income Tax Act",
+      "Maturity on completion of 21 years from account opening or upon marriage after age 18"
+    ],
+    "eligibilityText": "Account can be opened by biological parents or legal guardians for a girl child from her birth up to the age of 10 years. Maximum two girl children per family.",
+    "rules": {
+      "gender": ["female"],
+      "age": {
+        "min": 0,
+        "max": 10
+      }
+    },
+    "documents": [
+      "Birth Certificate of the girl child",
+      "Identity and Address Proof of parent/guardian (Aadhaar / Passport / Voter ID)",
+      "Photographs of girl child and guardian"
+    ],
+    "applicationProcess": [
+      "Visit any Post Office branch or authorized commercial bank (SBI, PNB, etc.)",
+      "Submit Sukanya Samriddhi Account Opening Form with initial deposit (minimum ₹250)",
+      "Submit girl child birth certificate and guardian KYC documents",
+      "Account passbook issued upon opening"
+    ],
+    "officialWebsite": "https://www.india.gov.in/sukanya-samriddhi-yojna",
+    "source": "https://www.myscheme.gov.in/schemes/ssy",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "department": "Department of Financial Services, Ministry of Finance",
+    "category": "Entrepreneurship",
+    "beneficiary": "Micro & Small Business Owners and Entrepreneurs",
+    "state": "All",
+    "description": "Provides collateral-free institutional loans up to ₹10 lakh to non-corporate, non-farm small and micro enterprises for income-generating activities in manufacturing, processing, trading or service sectors.",
+    "benefits": [
+      "Collateral-free institutional loans with competitive interest rates",
+      "Categorized in three tiers: Shishu (up to ₹50,000), Kishore (₹50,001 to ₹5,00,000), and Tarun (₹5,00,001 to ₹10,00,000)",
+      "Mudra Debit Card provided for working capital withdrawals"
+    ],
+    "eligibilityText": "Any Indian citizen aged 18 to 65 years with a viable business plan for non-farm income generating micro enterprises in manufacturing, trading, or service sectors.",
+    "rules": {
+      "age": {
+        "min": 18,
+        "max": 65
+      }
+    },
+    "documents": [
+      "Proof of Identity (Aadhaar / Voter ID / PAN Card)",
+      "Proof of Residence (Utility Bill / Aadhaar)",
+      "Business Enterprise Registration / License / Udyam Certificate",
+      "Quotation for machinery or items to be purchased",
+      "Bank Account Statement for last 6 months"
+    ],
+    "applicationProcess": [
+      "Apply online via Udyami Mitra Portal (udyamimitra.in) or JanSamarth portal",
+      "Alternatively, visit any public/private commercial bank, RRB, or NBFC branch",
+      "Submit loan application form with business proposal and KYC proofs",
+      "Loan disbursed directly upon approval without processing fee for Shishu"
+    ],
+    "officialWebsite": "https://www.mudra.org.in/",
+    "source": "https://www.myscheme.gov.in/schemes/pmmy",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "Post Matric Scholarship for SC Students",
+    "department": "Ministry of Social Justice and Empowerment",
+    "category": "Education",
+    "beneficiary": "Scheduled Caste Students pursuing Higher Education",
+    "state": "All",
+    "description": "Centrally sponsored scheme to provide financial assistance to Scheduled Caste students studying at post-matriculation or post-secondary stage to enable them to complete their education.",
+    "benefits": [
+      "Full compulsory non-refundable fees reimbursed directly to educational institutions",
+      "Academic allowance / maintenance allowance paid directly to student's bank account",
+      "Special disability allowance for students with benchmark disabilities"
+    ],
+    "eligibilityText": "Indian national belonging to Scheduled Caste (SC) category enrolled in recognized post-matric course with family annual income not exceeding ₹2,50,000.",
+    "rules": {
+      "student": true,
+      "categories": ["sc"],
+      "annualIncome": {
+        "max": 250000
+      }
+    },
+    "documents": [
+      "Caste Certificate issued by authorized Revenue Authority (Tehsildar)",
+      "Income Certificate of parents/guardian for current financial year",
+      "Previous Class / Degree Marksheet and Passing Certificate",
+      "Fee Receipt and Bonafide Certificate of current course enrolment",
+      "Aadhaar Card linked to Bank Account"
+    ],
+    "applicationProcess": [
+      "Register on the National Scholarship Portal (scholarships.gov.in)",
+      "Complete student profile and select 'Post Matric Scholarship for SC Students'",
+      "Upload institutional fee structure, caste certificate, and income proof",
+      "Application validated at Institute level and State Nodal Officer before DBT disbursement"
+    ],
+    "officialWebsite": "https://scholarships.gov.in/",
+    "source": "https://www.myscheme.gov.in/schemes/pms-sc",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "YSR Rythu Bharosa - PM KISAN",
+    "department": "Department of Agriculture, Government of Andhra Pradesh",
+    "category": "Agriculture",
+    "beneficiary": "Farmer Families in Andhra Pradesh",
+    "state": "Andhra Pradesh",
+    "description": "A welfare programme by Government of Andhra Pradesh providing comprehensive input assistance to farmer families including tenant farmers (CCRC holders) across the state.",
+    "benefits": [
+      "Financial assistance of ₹13,500 per farmer family per year (inclusive of ₹6,000 PM-KISAN component)",
+      "Paid in three installments across Kharif, Rabi, and harvest periods",
+      "Includes coverage for ROFR and tenant cultivators belonging to SC, ST, BC, and Minority communities"
+    ],
+    "eligibilityText": "Cultivator farmer families residing in Andhra Pradesh owning agricultural land or recognized tenant farmers under CCRC card, aged 18 or older.",
+    "rules": {
+      "states": ["andhra pradesh"],
+      "farmer": true,
+      "age": {
+        "min": 18
+      }
+    },
+    "documents": [
+      "Aadhaar Card",
+      "Pattadar Passbook / 1B Adangal or Crop Cultivator Rights Card (CCRC)",
+      "Active Bank Account seeded with Aadhaar",
+      "Ration Card / Rice Card"
+    ],
+    "applicationProcess": [
+      "Enrollment and verification conducted at Village Rythu Bharosa Kendras (RBK)",
+      "Village Agriculture Assistant (VAA) verifies land records in Webland system",
+      "Social audit list displayed at Gram Sachivalayam for transparency",
+      "Assistance deposited directly to Aadhaar-enabled bank account"
+    ],
+    "officialWebsite": "https://ysrrythubharosa.ap.gov.in/",
+    "source": "https://ysrrythubharosa.ap.gov.in/",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  },
+  {
+    "schemeName": "YSR Cheyutha",
+    "department": "Department of Social Welfare, Government of Andhra Pradesh",
+    "category": "Women Empowerment",
+    "beneficiary": "Middle-aged Women from Backward and Minority Communities",
+    "state": "Andhra Pradesh",
+    "description": "Financial assistance program empowering middle-aged women in Andhra Pradesh to set up sustainable retail, dairy, or grocery livelihoods in partnership with corporate partners.",
+    "benefits": [
+      "Financial assistance of ₹18,750 per year for four consecutive years (total ₹75,000)",
+      "Technical guidance and market linkage support from corporate partners (Amul, ITC, HUL, Reliance)",
+      "Full autonomy to invest funds in sustainable micro-business or livestock"
+    ],
+    "eligibilityText": "Women aged between 45 and 60 years residing in Andhra Pradesh belonging to SC, ST, BC, or Minority communities with family annual income under ₹1,20,000 (rural) or ₹1,44,000 (urban).",
+    "rules": {
+      "states": ["andhra pradesh"],
+      "gender": ["female"],
+      "age": {
+        "min": 45,
+        "max": 60
+      },
+      "categories": ["sc", "st", "obc", "bc", "minority"],
+      "annualIncome": {
+        "max": 144000
+      }
+    },
+    "documents": [
+      "Integrated Caste Certificate",
+      "Income Certificate or White Ration Card / Rice Card",
+      "Aadhaar Card (with date of birth proof)",
+      "Bank Account Passbook (single account in applicant's name)"
+    ],
+    "applicationProcess": [
+      "Apply through Village/Ward Volunteers or at local Grama/Ward Sachivalayam in Andhra Pradesh",
+      "Welfare and Education Assistant conducts door-to-door e-KYC verification",
+      "Beneficiary list approved by Municipal Commissioner / MPDO after social audit",
+      "Amount directly credited to woman's unencumbered bank account"
+    ],
+    "officialWebsite": "https://navasakam.ap.gov.in/",
+    "source": "https://navasakam.ap.gov.in/",
+    "lastVerifiedAt": "2026-10-01T00:00:00.00Z",
+    "isActive": true
+  }
+]
